@@ -1,25 +1,17 @@
-.input-section {
-  background-color: #faf2fa;
-  margin: 20px 0;
-  border: 2px dotted green;
-  padding: 20px 30px;
-}
 .data-section {
-  background-color: azure;
-  margin-bottom: 20px;
-  border: 2px dashed green;
-  padding: 30px;
+  height: 900px;
+  background-color: #6200ee;
+  padding-top: 30px;
 }
-.add-btn {
-  margin: 20px 0;
-  text-align: center;
+.input-section {
+  margin: 90px 0 0 0;
+  padding: 0 250px 0 200px;
 }
 
 .flip-card {
   background-color: transparent;
-  height: 95px;
+  height: 50px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  margin: 0 0 20px 0;
 }
 
 /* This container is needed to position the front and back side */
@@ -48,16 +40,16 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  /* background-color: #eaeaea; */
-  background-image: linear-gradient(mediumspringgreen, mediumseagreen);
-  color: black;
-  border-radius: 5px;
+  color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 /* Style the back side */
 .flip-card-back {
-  /* background-color: #636363; */
-  background-image: linear-gradient(lavender, plum);
+  background-color: white;
   color: rgb(49, 49, 49);
   font-weight: bold;
   transform: rotateY(180deg);
@@ -65,5 +57,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 25px 0 0 25px;
+  margin-right: 10px;
 }

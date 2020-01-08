@@ -16,7 +16,9 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
